@@ -38,8 +38,18 @@ body {
     text-align: center;
     box-sizing: border-box;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
+}
+
+.work-item .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-item img {
+    margin: 10px 0;
 }
 
 .footer {
